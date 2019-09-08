@@ -672,4 +672,14 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCrDuU5oQPbm6Y5dRLdDtrivSBIOORTIk1KHvuC9MwJ
 
 Ubuntu 18.04.3 LTS ubuntu-bionic ttyS0
 
-ubuntu-bionic login: 
+ubuntu-bionic login: [ 9052.545902] systemd[1]: systemd-logind.service: Watchdog timeout (limit 3min)!
+[16252.390103] systemd[1]: systemd-networkd.service: Watchdog timeout (limit 3min)!
+[30652.394482] INFO: rcu_sched detected stalls on CPUs/tasks:
+[30652.396464] 	1-...!: (4 GPs behind) idle=7e8/0/0 softirq=36450/36450 fqs=8 
+[30652.398121] 	(detected by 0, t=299581 jiffies, g=11527, c=11526, q=1713)
+[30652.400760] rcu_sched kthread starved for 299565 jiffies! g11527 c11526 f0x0 RCU_GP_WAIT_FQS(3) ->state=0x402 ->cpu=1
+[30652.403169] INFO: rcu_sched detected stalls on CPUs/tasks:
+[30652.404423] 	1-...!: (4 GPs behind) idle=7fc/0/0 softirq=36450/36450 fqs=8 
+[30652.406011] 	(detected by 0, t=3598118 jiffies, g=11527, c=11526, q=1713)
+[30652.408512] rcu_sched kthread starved for 3598102 jiffies! g11527 c11526 f0x2 RCU_GP_WAIT_FQS(3) ->state=0x0 ->cpu=0
+[37852.392463] systemd[1]: systemd-logind.service: Watchdog timeout (limit 3min)!
